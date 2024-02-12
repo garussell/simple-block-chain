@@ -51,7 +51,8 @@ public boolean isValid() throws NoSuchAlgorithmException {
 
 	}
 
-  // Check previous hash matches
+
+	// Check previous hash matches
 
 	for (int i = 1; i < blocks.size(); i++) {
 
@@ -63,7 +64,8 @@ public boolean isValid() throws NoSuchAlgorithmException {
 
 	}
 
-  // Check hash is correctly calculated
+
+	// Check hash is correctly calculated
 
 	for (Block block : blocks) {
 	
