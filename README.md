@@ -1,23 +1,10 @@
-# Simple blockchain
+# Simple Block Chain
 
-An exercise to help individuals understand the basics of blockchain.
+This is a code challenge from the "Fundamentals of Software Architecture for Big Data" course taught by Tyson Gern and Mike Barinek as part of the MS-CS program through CU Boulder.  I am documenting my implementation of a simple block chain for educational purposes, using resources provided in that class.
 
-### The Exercise
+[Credits Due](#credits)
 
-The exercise - download the codebase and get the tests to pass!
-
-- Start with the hash implementation (previousHash + timestamp + nonce).
-- Move to isEmpty and Size.
-- Ensure the negative tests pass!
-
-Hope you enjoy the exercise!
-
-Thanks, @barinek
-
-© 2022 by Continuum Collective, Inc. All rights reserved.
-
-
-### Documenting my progress:
+## Documenting My Progress:
 
 This is what I did to get the tests to pass.
 
@@ -93,3 +80,10 @@ public boolean isValid() throws NoSuchAlgorithmException {
 }
 ```
 
+
+
+## Credits
+
+Thanks, @barinek
+
+© 2022 by Continuum Collective, Inc. All rights reserved.
